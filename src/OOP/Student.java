@@ -4,7 +4,16 @@ public class Student {
 	public String name;
 	public int age;
 
-	public static void main(String[] args) {
-		System.out.println("Learn Java with Me");
+	public Student(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+
+	void learnJava() {
+		System.out.println("Learn Java with me");
+	}
+
+	int getAge() {
+		return this.age;
 	}
 }
