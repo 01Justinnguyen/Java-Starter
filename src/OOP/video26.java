@@ -6,6 +6,6 @@ public class video26 {
 
 		Student std = new Student("Phúc", 22);
 
-		System.out.println("Object is " + std.name);
+//		System.out.println("Object is " + std.name);
 	}
 }
