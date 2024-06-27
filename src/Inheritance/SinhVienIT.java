@@ -24,4 +24,10 @@ public class SinhVienIT extends SinhVien {
 	public void info() {
 		System.out.println("Run info from sinhvienit");
 	}
+
+	@Override
+	void tinhDiem() {
+		// TODO Auto-generated method stub
+
+	}
 }
